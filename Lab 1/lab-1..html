@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab task-first one</title>
+	
+</head>
+<body style="background-color:#919e95;">
+	<b style="color: red">*</b>- Denotes Required Information<br><br>
+
+		<table>
+			<thead>
+				<td><b>> Donation</b></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>> Confirmation</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>>Thank You!</td>
+			</thead>
+		</table>
+
+			<h3 style="color: red">Donor information</h3>
+
+				<form>
+
+					<table>
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>First name</b><b style="color: red">*</b></label></td>
+							<td><input type="text" name="fname"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Last name</b><b style="color: red">*</b></label></td>
+							<td><input type="text" name="lname"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Company</b></label></td>
+							<td><input type="text" name="company"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Address 1</b><b style="color: red">*</b></label></td>
+							<td><input type="text" name="address1"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Address 2</b></label></td>
+							<td><input type="text" name="address2"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>City</b><b style="color: red">*</b></label></td>
+							<td><input type="text" name="city"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>State</b><b style="color: red">*</b></label></td>
+							<td>
+								<select name="state">
+									<option><b>Select a State</b></option>
+									<option value="dhk">Dhaka</option>
+									<option value="cum">Cumilla</option>
+									<option value="raj">Rajshani</option>				
+								</select>
+							</td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Zip Code</b><b style="color: red">*</b></label></td>
+							<td><input type="text" name="zip"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Country</b><b style="color: red">*</b></label></td>
+							<td>
+								<select>
+									<option><b>Select a Country</b></option>
+									<option value="ban">Bangladesh</option>
+									<option value="ind">India</option>
+									<option value="pak">Pakistan</option>
+								</select>
+							</td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Phone</b></label></td>
+							<td><input type="text" name="phone"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Fax</b></label></td>
+							<td><input type="text" name="fax"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Email</b><b style="color: red">*</b></label></td>
+							<td><input type="text" name="email"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td>
+								<label><b>Donatoin Amount</b><b style="color: red">*</b><br>
+								(check a button or type in your amount)</label>
+							</td>
+							<td>
+								<input type="radio" name="donation" id="none">None
+								<input type="radio" name="donation" id="50">$50
+								<input type="radio" name="donation" id="75">$75
+								<input type="radio" name="donation" id="100">$100
+								<input type="radio" name="donation" id="275">$275
+								<input type="radio" name="donation" id="other">Other
+							</td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td><label><b>Other Amount $ </b></label></td>
+							<td><input type="text" name="otherAmount"></td>
+						</thead>
+
+						<thead>
+							<td></td>
+							<td></td>
+							<td>
+								<label><b>Recurring Donation</b><br>(check if yes)
+								</label>
+							</td>
+							<td>
+								<input type="checkbox" name="interested">I am interested in giving on a regular basis
+							</td>
+						</thead>
+					</table>
+	
+			
+			<h3 style="color: red">Honorarium and Memorial Donation Information</h3>
+
+				<table>
+					<thead>
+						<td></td>
+						<td></td>
+						<td rowspan="2"><label><b>I would like to make this donation<b></label></td>
+						<td><input type="radio" name="h&m" id="honor">To Honor</td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td><input type="radio" name="h&m" id="memory">In Memory of</td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td><label><b>Name</b></label></td>
+						<td><input type="text" name="name"></td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td><label><b>Acknowledgment Donation to</b></label></td>
+						<td><input type="text" name="ackDonation"></td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td><label><b>Address</b></label></td>
+						<td><input type="text" name="add"></td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td><label><b>City</b></label></td>
+						<td><input type="text" name="ciTTy"></td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td><label><b>State</b></label></td>
+						<td>
+							<select name="state2">
+								<option><b>Select a State</b></option>
+								<option value="dhk">Dhaka</option>
+								<option value="cum">Cumilla</option>
+								<option value="raj">Rajshani</option>				
+							</select>
+						</td>
+					</thead>
+
+					<thead>
+						<td></td>
+						<td></td>
+						<td><label><b>Zip</b></label></td>
+						<td><input type="text" name="zhip"></td>
+					</thead>
+
+
+
+				</table>
+
+			<h3 style="color: red">Additional Information</h3>
+			<p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+
+			<table>
+				<thead>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><label><b>Name</b></label></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><input type="text" name="name3"></td>
+				</thead>
+			</table>
+			
+			<table>	
+				<tr>
+					<td>
+						<input type="checkbox" name="c1">I would like my gift to remain anonymous
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="checkbox" name="c2">My employer offers a matching gift program. I will mail the matching gift from.
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="checkbox" name="c3">Please save the cost of acknowledging this gift by not mailing a thank you letter.
+					</td>
+				</tr>
+			</table>
+
+			<table>
+				<thead>
+					
+					<td>
+						<label><b>Comments</b><br>
+							(Please type any questions or feedback here)
+						</label></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><textarea name="comment" rows="6" cols="60"></textarea></td>
+				</thead>
+
+				<thead>
+					<td rowspan="4"><b>How may we contact you?</b></td>
+					<td><input type="checkbox" name="e-mail">E-mail</td>
+				</thead>
+				
+				<thead>
+					<td> </td>
+					<td><input type="checkbox" name="p-mail">Postal Mail</td>
+				</thead>	
+
+				<thead>
+					<td> </td>
+					<td><input type="checkbox" name="telephone">Telephone</td>
+				</thead>	
+
+				<thead>
+					<td> </td>
+					<td><input type="checkbox" name="fax">Fax</td>
+				</thead>
+
+				<thead>
+					<td colspan="2">I would like to recieve newsletters and information about special events by:</td>
+				</thead>
+
+				<thead>
+					<td rowspan="2"></td>
+					<td><input type="checkbox" name="e-mail_1">E-mail</td>
+				</thead>
+
+				<thead>
+					<td> </td>
+					<td><input type="checkbox" name="p_mail_1">Postal Mail</td>
+				</thead>
+
+				<thead>
+					<td colspan="2"><input type="checkbox" name="checking">I would like information about volunteering with the Semipoka</td>
+				</thead>			
+
+			</table>
+			
+			<hr style="width:100%; height:20px; margin-left:10px; margin-right: 10px">
+
+			<table>
+				<thead>
+					<td><input type="button" name="reset" value="Reset"></td>
+					<td><input type="button" name="cont." value="Continue"></td>
+				</thead>
+			</table>
+			
+			
+					
+					
+						
+						
+						
+					
+
+
+
+
+					
+
+				
+						
+
+					
+						
+
+					
+						
+				</form>
+</body>
+</html>
