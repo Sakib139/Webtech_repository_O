@@ -1,0 +1,27 @@
+.header{
+	width: 100%;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.navigation{
+	display: inline-block;
+	float: right;
+}
+.home{
+	display: inline-block;	
+}
+.login{
+	display: inline-block;	
+}
+.registration{
+	display: inline-block;	
+}
+.profile{
+	display: inline-block;
+}
+.logout{
+	display: inline-block;
+}
